@@ -30,7 +30,7 @@ p {
 
 .container {
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 60px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
@@ -43,5 +43,13 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 200px;
+    min-height: 150px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
